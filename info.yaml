@@ -7,9 +7,9 @@ project:
   language:     "Verilog"
   clock_hz:     0
   tiles:        "1x1"
-  top_module:   "tt_um_akaksha_hu8785_simplecircuit"
+  top_module:   "tt_um_hu8785_simplecircuit"
   source_files:
-    - tt_um_akaksha_hu8785_simplecircuit.v
+    - tt_um_hu8785_simplecircuit.v
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
@@ -24,8 +24,8 @@ pinout:
   ui[7]: ""
 
   # Outputs
-  uo[0]: "F"
-  uo[1]: ""
+  uo[0]: "f"
+  uo[1]: "y"
   uo[2]: ""
   uo[3]: ""
   uo[4]: ""
