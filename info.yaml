@@ -1,18 +1,18 @@
 # Tiny Tapeout project information
 project:
   title:       "Simple Circuit F = AB + C'"
-  author:      "hu8785"
-  discord:     ""
+  author:      "akanksha"
+  discord:     "hu8785"
   description: "Implementation of combinational logic F = AB + C'"
   language:    "Verilog"
   clock_hz:    0
 
   tiles: "1x1"
 
-  top_module:  "ttumhu8785simplecircuit"
+  top_module:  "ttumakankshahu8785simplecircuit"
 
   source_files:
-    - ttumhu8785simplecircuit.v
+    - ttumakankshahu8785simplecircuit.v
 
   pinout:
     # Inputs
