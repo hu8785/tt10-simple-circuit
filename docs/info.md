@@ -7,20 +7,18 @@ Inputs:
 - B
 - C
 
-The circuit first computes:
+The circuit computes:
 - e = A AND B
 - y = NOT C
-
-Then it computes:
 - f = e OR y = AB + C'
 
-So:
-- f is the final output
-- y is the complement of C
+So the outputs are:
+- f = final output
+- y = complement of C
 
 ## How to test
 
-Apply all 8 input combinations and verify the outputs:
+Apply all 8 combinations of A, B, and C.
 
 | A | B | C | f | y |
 |---|---|---|---|---|
