@@ -9,10 +9,10 @@ project:
 
   tiles: "1x1"
 
-    top_module:  "tt_um_akankshahu8785simplecircuit"
+  top_module:  "tt_um_akaksha_hu8785_simplecircuit"
 
   source_files:
-        - tt_um_akankshahu8785simplecircuit.v
+    - tt_um_akaksha_hu8785_simplecircuit.v
 
   pinout:
     # Inputs
@@ -44,6 +44,3 @@ project:
     uio[5]: ""
     uio[6]: ""
     uio[7]: ""
-
-# Do not change!
-yaml_version: 6
