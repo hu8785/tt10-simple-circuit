@@ -8,10 +8,10 @@ project:
 
   tiles: "1x1"
 
-  top_module:  "tt_um_hu8785_simple_circuit"
+  top_module:  "tt_um_hu8785_simplecircuit"
 
   source_files:
-    - "tt_um_hu8785_simple_circuit.v"
+    - "tt_um_hu8785_simplecircuit.v"
 
 pinout:
   ui[0]: "A"
