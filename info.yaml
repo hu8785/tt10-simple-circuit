@@ -9,10 +9,10 @@ project:
 
   tiles: "1x1"
 
-  top_module:  "ttumakankshahu8785simplecircuit"
+    top_module:  "tt_um_akankshahu8785simplecircuit"
 
   source_files:
-    - ttumakankshahu8785simplecircuit.v
+        - tt_um_akankshahu8785simplecircuit.v
 
   pinout:
     # Inputs
