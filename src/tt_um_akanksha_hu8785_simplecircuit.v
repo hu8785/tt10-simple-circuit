@@ -1,6 +1,6 @@
 `default_nettype none
 
-module tt_um_akanksha_hu8785_simple_circuit (
+module tt_um_akanksha_hu8785_simplecircuit (
     input  wire [7:0] ui_in,
     output wire [7:0] uo_out,
     input  wire [7:0] uio_in,
