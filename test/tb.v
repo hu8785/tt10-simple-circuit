@@ -28,8 +28,8 @@ module tb ();
   wire VGND = 1'b0;
 `endif
 
-  ttumakankshahu8785simplecircuit user_project (
-    // Include power ports for the Gate Level test:
+  tt_um_akankshahu8785simplecircuit user_project (
+  // Include power ports for the Gate Level test:
 `ifdef GL_TEST
     .VPWR(VPWR),
     .VGND(VGND),
