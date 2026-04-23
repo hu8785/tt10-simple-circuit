@@ -6,16 +6,10 @@ project:
   description:  "Implementation of combinational logic F = AB + C'"
   language:     "Verilog"
   clock_hz:     0
-
-# How many tiles your design occupies?
-tiles: "1x1"
-
-# Your top module name must start with "tt_um_"
-top_module: "tt_um_akaksha_hu8785_simplecircuit"
-
-# List your project's source files here.
-source_files:
-  - tt_um_akaksha_hu8785_simplecircuit.v
+  tiles:        "1x1"
+  top_module:   "tt_um_akaksha_hu8785_simplecircuit"
+  source_files:
+    - tt_um_akaksha_hu8785_simplecircuit.v
 
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
