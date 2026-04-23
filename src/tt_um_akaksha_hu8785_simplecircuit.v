@@ -1,5 +1,5 @@
 `default_nettype none
-module tt_um_akankshahu8785simplecircuit (
+module tt_um_akaksha_hu8785_simplecircuit (
     input  wire [7:0] ui_in,    // Dedicated inputs
     output wire [7:0] uo_out,   // Dedicated outputs
     input  wire [7:0] uio_in,   // IOs: Input path
@@ -25,18 +25,8 @@ module tt_um_akankshahu8785simplecircuit (
 
     // Assign outputs
     assign uo_out[0] = F;
-    assign uo_out[1] = 1'b0;
-    assign uo_out[2] = 1'b0;
-    assign uo_out[3] = 1'b0;
-    assign uo_out[4] = 1'b0;
-    assign uo_out[5] = 1'b0;
-    assign uo_out[6] = 1'b0;
-    assign uo_out[7] = 1'b0;
-
-    assign uio_out = 8'b00000000;
-    assign uio_oe  = 8'b00000000;
-
-    // Prevent unused input warnings
-    wire _unused = &{ena, clk, rst_n, ui_in[7:3], uio_in, 1'b0};
+    assign uo_out[7:1] = 7'b0;
+    assign uio_out = 8'b0;
+    assign uio_oe  = 8'b0;
 
 endmodule
