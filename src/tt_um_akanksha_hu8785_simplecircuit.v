@@ -1,6 +1,6 @@
 `default_nettype none
 
-module tt_um_hu8785_simple_circuit (
+module tt_um_akanksha_hu8785_simple_circuit (
     input  wire [7:0] ui_in,
     output wire [7:0] uo_out,
     input  wire [7:0] uio_in,
@@ -16,14 +16,14 @@ module tt_um_hu8785_simple_circuit (
     wire C = ui_in[2];
 
     wire e;
-    wire x;
+    wire f;
     wire y;
 
     assign e = A & B;
     assign y = ~C;
-    assign x = e | y;
+    assign f = e | y;
 
-    assign uo_out[0] = x;
+    assign uo_out[0] = f;
     assign uo_out[1] = y;
     assign uo_out[2] = 1'b0;
     assign uo_out[3] = 1'b0;
